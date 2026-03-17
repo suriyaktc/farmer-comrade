@@ -9,7 +9,7 @@ import tempfile
 app = Flask(__name__)
 from dotenv import load_dotenv
 load_dotenv()
-client = Groq(api_key=os.getenv("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"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 LANGUAGES = {
     "english": {"code": "en", "name": "English", "instruction": "Respond in English"},
