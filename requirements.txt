@@ -2,3 +2,4 @@ flask
 groq
 gtts
 gunicorn
+python-dotenv
